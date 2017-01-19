@@ -1,0 +1,29 @@
+{
+  "name": "processmakerInbox",
+  "version": "0.1.1",
+  "description": "Processmaker Inbox",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/ronaldotn/ProcessmakerInbox",
+  "keywords": [
+    "Processmaker",
+    "Inbox",
+    "light"
+  ],
+  "author": "Ronald Quenta",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  },
+  "build": {
+    "appId": "processmaker.inbox",
+    "mac": {
+      "category": "your.app.category.type"
+    },
+    "win": {
+      "iconUrl": "(windows-only) https link to icon"
+    }
+  }
+}
